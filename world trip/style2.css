@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+/*Receiveing Your Submittion start*/
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: url(images/background\ img.png);
+    background-repeat: no-repeat; 
+    background-size:cover;
+}
+.container{
+    max-width: 700px;
+    width: 100%;
+    background: #ffff;
+    padding: 25px 30px;
+    border: 5px;
+    border-radius: 30px;
+}
+.container .title img{
+    padding-left: 250px;  
+}
+.container .title h3{
+    padding-left: 220px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.container .title p{
+    padding-left: 130px;
+}
+.container .title a{
+  padding: 260px;
+}
+.container .title a button{
+    border-color: #ffa500;
+    padding: 10px;
+    background: #ffa500;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #ffff;
+}
+/*Receiving Your Submittion end*/
